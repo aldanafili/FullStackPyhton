@@ -1,0 +1,37 @@
+    <div class="container">
+        <button class="btn-main">Boton main</button>
+        <button class="btn-main-s">Boton main-s</button>
+        <button class="btn-sec">Boton sec</button>
+        <button class="btn-sec-s">Boton sec-s</button>
+    </div>-->
+    
+    <div class="container">
+        <ul class="main-menu">
+            <li>Prices</li>
+            <li>Learn</li>
+            <li>Individuals</li>
+            <li>Businesses</li>
+            <li>Developers</li>
+            <li>Company</li>
+        </ul>
+    </div>-->
+   
+    <span class="icon-sm"> 
+            <i class="bi bi-arrow-right"></i>
+    </span>
+
+    <div class="feature">
+            <i class="bi bi-eye-fill icon"></i>
+            <div class="description">
+                <h3 class="title">Secure storage</h3>
+                <p class="text">We store .....</p>
+            </div>
+            <p class="cta">Este es el cta</p>
+     </div>
+
+     <div class="container">
+        <div class="icon-desc">
+            <i class="bi bi-person-plus-fill icon"></i>
+            <h3 class="title">Create an account</h3>
+        </div>
+    </div>   
