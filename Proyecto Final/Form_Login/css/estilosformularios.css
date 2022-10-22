@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 10px;
+    height: 10px;
+}
+
+.input{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input[type="password"]{ /*solo afecta al tipo password*/
+    color: blue;
+}
+
+.input-moderno{
+    border: none;
+    border-bottom: 1px solid crimson;
+    outline: none;
+    padding: 5px;
+    color: crimson;
+}
+
+.input-moderno::placeholder{
+    color: darkgray;
+}
+
+.input-moderno:focus{ /*cuando con el enfoque dentro de este input puedo hacer enfoque en su detalle*/
+    border-bottom: 1px solid chartreuse;
+}
+
+.input-background{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    box-shadow: 0 0 10px gainsboro; /*x y difumacion de las sombras*/
+}
+
+.input-background::placeholder{
+    color: gainsboro;
+}
+
+.input-search{
+    padding: 10px;
+    padding-left: 30px;
+    /*border: none;
+    background-color: gainsboro;*/
+    border-radius: 8px;
+    margin: 10px;
+    background-image: url('../img/search.png'); /*no puedo achicar la imagen*/
+    background-repeat: no-repeat;
+    background-position: 5px;
+
+}
+
+textarea{
+    resize: horizontal; /*both es por defecto y permite redimensionar*/
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    background-color: gainsboro;
+}
