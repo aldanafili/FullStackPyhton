@@ -12,38 +12,37 @@
 <body>   
     <nav class="nav">
         <div class="logo">
-            <a href="../html/proyecto.html"><img src="../assets/img/bitcoins.png" alt="logo" />
+            <a href="#"><img src="../assets/img/bitcoins.png" alt="logo" />
             </div></a>
             
-        <div class="menu d-none d-md-block"> <!--Si se achica la pantalla el menu desaparece-->
-            <ul class="main-menu">
-                <li><a href="#">Prices</a></li>
-                <li><a href="#">Learn</a></li>
-                <li><a href="#">Individuals</a></li>
-                <li><a href="#">Businesses</a></li>
-                <li><a href="#">Developers</a></li>
-                <li><a href="#">Company</a></li>
+        <div class="menu d-none d-md-block"> <!--Si se achica la pantalla el menu desaparece con d-none y d-md-block-->
+            <ul class="main-menu"> <!--falta direccionar el menu de navegacion-->
+                <li><a href="#">Precios</a></li> 
+                <li><a href="#">Aprender</a></li>
+                <li><a href="../html/grid2.html">Historia</a></li>
+               
             </ul>
         </div>
         <div class="get-started">
-            <button class="btn-sec-s">Iniciar sesión</button>
-            <button class="btn-main-s">Registrate</button>
+            <button class="btn-sec-s">Log out</button>
+            <a href="../Form_Login/html/loginforms.html"><button class="btn-main-s">Registrarse</button></a>
         </div>
+        
     </nav>
     <section class="sec-home">
         <div class="home-cta">
             <div class="cta-text">  
-                <span>Jump start your portfolio</span>              
+                <span>Ponga en marcha su cartera</span>              
                 <i class="bi bi-arrow-right"></i>
             </div>
-            <h2 class="home-title h1">Jump start your portfolio</h2>
-            <p class="home-description">Coinbase us the easiest place to buy and sell crytocurrency. Sign up and get started today</p>
+            <h2 class="home-title h1">Ponga en marcha su cartera</h2>
+            <p class="home-description">Coinbase es el lugar más fácil para comprar y vender criptomonedas. Regístrese y comience hoy</p>
             <div class="lead-magnet row align-items-center" > 
                 <div class="col input-col"> <!--Dentro de Docs en bootstrap Forms/Forms control-->
                     <input type="email" class="form-control input-email" placeholder="Email address"/>
                 </div>
                 <div class="col">
-                    <button class="btn-main">Get started</button>
+                    <button class="btn-main">Empezar</button>
                 </div>    
             </div>
         </div>
@@ -55,8 +54,8 @@
     <section class="sec-call-to-action"></section>
     <section class="sec-features">
         <div class="intro">
-            <h3>Create your cryptocurrency portfolio today</h3>
-            <p>Coinbase has a variety of features that make it the best place to start trading</p>
+            <h3>Cree su cartera de criptomonedas hoy</h3>
+            <p>Coinbase tiene una variedad de características que lo convierten en el mejor lugar para comenzar a operar</p>
         </div>    
         <!--Agrego dos columnas, en una va el detalle con los iconos y del otro lado la imagen-->
         <div class="features">
@@ -64,22 +63,22 @@
                 <div class="feature">
                     <span class="icon-sm"><i class="bi bi-graph-up"></i></span>
                     <div class="description">
-                        <h4 class="description-title">Manage you porfolio</h4>
-                        <p class="description-text">Buy and sell popular digital currencies, keep track of them in the one place.</p>
+                        <h4 class="description-title">Gestiona tu cartera</h4>
+                        <p class="description-text">Compre y venda monedas digitales populares, realice un seguimiento de ellas en un solo lugar.</p>
                     </div>
                 </div>
                 <div class="feature">
                     <span class="icon-sm"><i class="bi bi-calendar"></i></span>
                     <div class="description">
-                        <h4 class="description-title">Recurring buys</h4>
-                        <p class="description-text">Invest in cryptocurrency slowly over, time by scheduling buys daily, weekly, or monthly.</p>
+                        <h4 class="description-title">Compras recurrentes</h4>
+                        <p class="description-text">Invierta en criptomonedas lentamente a lo largo del tiempo programando compras diarias, semanales o mensuales.</p>
                     </div>
                 </div>
                 <div class="feature">
                     <span class="icon-sm"><i class="bi bi-phone"></i></span>
                     <div class="description">
-                        <h4 class="description-title">Mobile apps</h4>
-                        <p class="description-text">Stay on top the markets with the Coinbase app for Android or iOs</p>
+                        <h4 class="description-title">Aplicaciones móviles</h4>
+                        <p class="description-text">Manténgase al tanto de los mercados con la aplicación Coinbase para Android o iOs</p>
                     </div>
                 </div>
             </div>
@@ -92,36 +91,36 @@
     </section>
     <section class="sec-benefits"><!--Iconos varios-->
         <div class="intro">
-            <h3>The most trusted cryptocurrency platform</h3>
-            <p>Here are a few reasons why you should choose Coin</p>
+            <h3>La plataforma de criptomonedas más confiable</h3>
+            <p>Aquí hay algunas razones por las que debe elegir Coin</p>
         </div>
         <div class="benefit-cards row"><!--En forma de columnas-->
             <div class="benefit col-md"></div>
             <div class="benefit col-md">
                 <i class="bi bi-eye-fill icon"></i>
                 <div class="description">
-                    <h4 class="title">Secure storage</h4>
-                    <p class="text">We store the vast majority of the digital assets in secure offline storage.</p>
+                    <h4 class="title">Almacenamiento seguro</h4>
+                    <p class="text">Almacenamos la gran mayoría de los activos digitales en almacenamiento seguro fuera de línea.</p>
                 </div>
-                <p class="cta">Learn how Coinbase keeps your funds safe and secure</p>
+                <p class="cta">Aprenda cómo Coinbase mantiene sus fondos seguros y protegidos</p>
             </div>
 
             <div class="benefit col-md">
                 <i class="bi bi-envelope-fill icon"></i>
                 <div class="description">
-                    <h4 class="title">Protected by insurance</h4>
-                    <p class="text">Coinbase maintains crypto insurance and all USD cash balances are covered by FDIC insurance, up to a maximum of $250,000.</p>
+                    <h4 class="title">Protegido por seguro</h4>
+                    <p class="text">Coinbase mantiene un criptoseguro y todos los saldos en efectivo en USD están cubiertos por el seguro de la FDIC, hasta un máximo de $250 000.</p>
                 </div>
-                <p class="cta">Learn how your crypto is covered by our insurance policy</p>
+                <p class="cta">Conozca cómo su criptografía está cubierta por nuestra póliza de seguro</p>
             </div>
 
             <div class="benefit col-md">
                 <i class="bi bi-shield-shaded icon"></i>
                 <div class="description">
-                    <h4 class="title">Industry best practices</h4>
-                    <p class="text">Coinbase supports a variety of the most popular digital currencies.</p>
+                    <h4 class="title">Mejores prácticas de la industria</h4>
+                    <p class="text">Coinbase admite una variedad de las monedas digitales más populares.</p>
                 </div>
-                <p class="cta">Learn how we implement industry best practices for account security</p>
+                <p class="cta">Conozca cómo implementamos las mejores prácticas de la industria para la seguridad de la cuenta</p>
             </div>
 
 
@@ -133,46 +132,46 @@
     <section class="sec-kpis row"> <!--Fondo azul estadisticas totales-->
         <div class="kpi col-md">
             <span class="number">$547B</span>
-            <span class="desc">Quarterly volume traded</span>
+            <span class="desc">Volumen trimestral negociado</span>
         </div>
 
         <div class="kpi col-md">
             <span class="number">100+</span>
-            <span class="desc">Countries supported</span>
+            <span class="desc">Países admitidos</span>
         </div>
 
         <div class="kpi col-md">
             <span class="number">89+M</span>
-            <span class="desc">Verified users</span>
+            <span class="desc">Usuarios verificados</span>
         </div>
     </section>
     <section class="sec-onboarding ">
         <div class="intro">
-            <h3>Get started in a few minutes</h3>
-            <p>Coinbase supports a variety of the most popular digital currencies.</p>
+            <h3>Comience en unos minutos</h3>
+            <p>Coinbase admite una variedad de las monedas digitales más populares.</p>
         </div>
         <div class="steps">
             <div class="icon-desc ">
                 <i class="bi bi-person-plus-fill icon"></i>
-                <h4 class="title">Create an account</h4>
+                <h4 class="title">Crea una cuenta</h4>
             </div>
             <div class="step-separator"></div>
             <div class="icon-desc">
                 <i class="bi bi-bank icon"></i>>
-                <h4 class="title">Link your bank account</h4>
+                <h4 class="title">Vincula tu cuenta bancaria</h4>
             </div>
             <div class="step-separator"></div>
             <div class="icon-desc ">
                 <i class="bi bi-coin icon"></i>
-                <h4 class="title">Purchase some coin</h4>
+                <h4 class="title">Compra algunas monedas</h4>
             </div>
         </div>
     </section>
     <section class="sec-footer-cta">
         <div class="footer-cta">
-            <h4 class="cta-title">Earn Up to $7 worth of crypto</h4>
-            <p class="cta-description">Discover how specific cryptocurrencies work — and get a bit of each crypto to try out for yourself.</p>
-            <button class="btn-main">Start earning</button>
+            <h4 class="cta-title">Gana hasta $7 en criptomonedas</h4>
+            <p class="cta-description">Descubra cómo funcionan las criptomonedas específicas y obtenga un poco de cada criptografía para probarlo usted mismo.</p>
+            <button class="btn-main">Empezara a ganar</button>
         </div>
 
     </section>
