@@ -66,6 +66,6 @@ def notFound(error=None):
     return response
 
 
-
+#configuro el puerto 4000
 if __name__ == '__main__':
     app.run(debug=True, port=4000)
